@@ -94,35 +94,167 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="assets\css\font-awesome.min.css" />
     <Content Include="assets\css\ie8.css" />
     <Content Include="assets\css\ie9.css" />
     <Content Include="assets\css\images\arrow.svg" />
+    <Content Include="assets\css\images\dark-arrow.svg" />
     <Content Include="assets\css\images\overlay.png" />
+    <Content Include="assets\css\images\poptrox-closer.svg" />
+    <Content Include="assets\css\images\poptrox-nav.svg" />
     <Content Include="assets\css\main.css" />
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
     <Content Include="assets\js\ie\backgroundsize.min.htc" />
     <Content Include="assets\js\ie\html5shiv.js" />
+    <Content Include="assets\js\ie\PIE.htc" />
     <Content Include="assets\js\ie\respond.min.js" />
     <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\jquery.poptrox.min.js" />
     <Content Include="assets\js\jquery.scrollex.min.js" />
     <Content Include="assets\js\jquery.scrolly.min.js" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\js\skel.min.js" />
     <Content Include="assets\js\util.js" />
-    <Content Include="images\bg.jpg" />
-    <Content Include="images\pic01.jpg" />
-    <Content Include="images\pic02.jpg" />
-    <Content Include="images\pic03.jpg" />
-    <Content Include="images\pic04.jpg" />
-    <Content Include="images\pic05.jpg" />
-    <Content Include="index.html" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="default.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\Data\IMG_1006.JPG" />
+    <Content Include="images\Data\IMG_1007.JPG" />
+    <Content Include="images\Hintergrund\a.jpg" />
+    <Content Include="images\Hintergrund\b.jpg" />
+    <Content Include="images\Hintergrund\c.jpg" />
+    <Content Include="images\Hintergrund\d.JPG" />
+    <Content Include="images\Hintergrund\e.JPG" />
+    <Content Include="images\Hintergrund\f.jpg" />
+    <Content Include="images\Sailing\01.jpg" />
+    <Content Include="images\Sailing\02.jpg" />
+    <Content Include="images\Sailing\03.jpg" />
+    <Content Include="images\Sailing\04.jpg" />
+    <Content Include="images\Sailing\05.JPG" />
+    <Content Include="images\Sailing\06.jpg" />
+    <Content Include="images\UnterDeck\21.JPG" />
+    <Content Include="images\UnterDeck\22.JPG" />
+    <Content Include="images\UnterDeck\23.JPG" />
+    <Content Include="images\UnterDeck\24.JPG" />
+    <Content Include="images\UnterDeck\25.JPG" />
+    <Content Include="images\UnterDeck\26.JPG" />
+    <Content Include="images\UnterDeck\27.JPG" />
+    <Content Include="images\UeberDeck\10.JPG" />
+    <Content Include="images\UeberDeck\11.JPG" />
+    <Content Include="images\UeberDeck\12.JPG" />
+    <Content Include="images\UeberDeck\13.JPG" />
+    <Content Include="images\UeberDeck\14.JPG" />
+    <Content Include="images\UeberDeck\15.JPG" />
+    <Content Include="images\UeberDeck\16.JPG" />
+    <Content Include="images\UeberDeck\17.JPG" />
+    <Content Include="images\UeberDeck\18.JPG" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap\wells.less" />
+    <Content Include="Content\bootstrap\variables.less" />
+    <Content Include="Content\bootstrap\utilities.less" />
+    <Content Include="Content\bootstrap\type.less" />
+    <Content Include="Content\bootstrap\tooltip.less" />
+    <Content Include="Content\bootstrap\thumbnails.less" />
+    <Content Include="Content\bootstrap\theme.less" />
+    <Content Include="Content\bootstrap\tables.less" />
+    <Content Include="Content\bootstrap\scaffolding.less" />
+    <Content Include="Content\bootstrap\responsive-utilities.less" />
+    <Content Include="Content\bootstrap\responsive-embed.less" />
+    <Content Include="Content\bootstrap\progress-bars.less" />
+    <Content Include="Content\bootstrap\print.less" />
+    <Content Include="Content\bootstrap\popovers.less" />
+    <Content Include="Content\bootstrap\panels.less" />
+    <Content Include="Content\bootstrap\pagination.less" />
+    <Content Include="Content\bootstrap\pager.less" />
+    <Content Include="Content\bootstrap\normalize.less" />
+    <Content Include="Content\bootstrap\navs.less" />
+    <Content Include="Content\bootstrap\navbar.less" />
+    <Content Include="Content\bootstrap\modals.less" />
+    <Content Include="Content\bootstrap\mixins\vendor-prefixes.less" />
+    <Content Include="Content\bootstrap\mixins\text-overflow.less" />
+    <Content Include="Content\bootstrap\mixins\text-emphasis.less" />
+    <Content Include="Content\bootstrap\mixins\table-row.less" />
+    <Content Include="Content\bootstrap\mixins\tab-focus.less" />
+    <Content Include="Content\bootstrap\mixins\size.less" />
+    <Content Include="Content\bootstrap\mixins\responsive-visibility.less" />
+    <Content Include="Content\bootstrap\mixins\resize.less" />
+    <Content Include="Content\bootstrap\mixins\reset-text.less" />
+    <Content Include="Content\bootstrap\mixins\reset-filter.less" />
+    <Content Include="Content\bootstrap\mixins\progress-bar.less" />
+    <Content Include="Content\bootstrap\mixins\panels.less" />
+    <Content Include="Content\bootstrap\mixins\pagination.less" />
+    <Content Include="Content\bootstrap\mixins\opacity.less" />
+    <Content Include="Content\bootstrap\mixins\nav-vertical-align.less" />
+    <Content Include="Content\bootstrap\mixins\nav-divider.less" />
+    <Content Include="Content\bootstrap\mixins\list-group.less" />
+    <Content Include="Content\bootstrap\mixins\labels.less" />
+    <Content Include="Content\bootstrap\mixins\image.less" />
+    <Content Include="Content\bootstrap\mixins\hide-text.less" />
+    <Content Include="Content\bootstrap\mixins\grid.less" />
+    <Content Include="Content\bootstrap\mixins\grid-framework.less" />
+    <Content Include="Content\bootstrap\mixins\gradients.less" />
+    <Content Include="Content\bootstrap\mixins\forms.less" />
+    <Content Include="Content\bootstrap\mixins\clearfix.less" />
+    <Content Include="Content\bootstrap\mixins\center-block.less" />
+    <Content Include="Content\bootstrap\mixins\buttons.less" />
+    <Content Include="Content\bootstrap\mixins\border-radius.less" />
+    <Content Include="Content\bootstrap\mixins\background-variant.less" />
+    <Content Include="Content\bootstrap\mixins\alerts.less" />
+    <Content Include="Content\bootstrap\mixins.less" />
+    <Content Include="Content\bootstrap\media.less" />
+    <Content Include="Content\bootstrap\list-group.less" />
+    <Content Include="Content\bootstrap\labels.less" />
+    <Content Include="Content\bootstrap\jumbotron.less" />
+    <Content Include="Content\bootstrap\input-groups.less" />
+    <Content Include="Content\bootstrap\grid.less" />
+    <Content Include="Content\bootstrap\glyphicons.less" />
+    <Content Include="Content\bootstrap\forms.less" />
+    <Content Include="Content\bootstrap\dropdowns.less" />
+    <Content Include="Content\bootstrap\component-animations.less" />
+    <Content Include="Content\bootstrap\code.less" />
+    <Content Include="Content\bootstrap\close.less" />
+    <Content Include="Content\bootstrap\carousel.less" />
+    <Content Include="Content\bootstrap\buttons.less" />
+    <Content Include="Content\bootstrap\button-groups.less" />
+    <Content Include="Content\bootstrap\breadcrumbs.less" />
+    <Content Include="Content\bootstrap\bootstrap.less" />
+    <Content Include="Content\bootstrap\badges.less" />
+    <Content Include="Content\bootstrap\alerts.less" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="assets\.sass-cache\431ccf47bb9651fa398632304796bdee9a381f7d\main.scssc" />
+    <Content Include="assets\.sass-cache\60fae8a5dafa08d20202fa888216b5c160b73f58\v8.scssc" />
+    <Content Include="assets\.sass-cache\60fae8a5dafa08d20202fa888216b5c160b73f58\v9.scssc" />
+    <Content Include="assets\.sass-cache\de61229414eb9b5d090fbdc1602a938726674dbe\_functions.scssc" />
+    <Content Include="assets\.sass-cache\de61229414eb9b5d090fbdc1602a938726674dbe\_mixins.scssc" />
+    <Content Include="assets\.sass-cache\de61229414eb9b5d090fbdc1602a938726674dbe\_skel.scssc" />
+    <Content Include="assets\.sass-cache\de61229414eb9b5d090fbdc1602a938726674dbe\_vars.scssc" />
     <Content Include="assets\fonts\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\fontawesome-webfont.ttf" />
     <Content Include="assets\fonts\fontawesome-webfont.woff" />
@@ -135,6 +267,26 @@
     <Content Include="assets\sass\libs\_skel.scss" />
     <Content Include="assets\sass\libs\_vars.scss" />
     <Content Include="assets\sass\main.scss" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\pic01.jpg" />
+    <Content Include="images\pic02.jpg" />
+    <Content Include="images\pic03.jpg" />
+    <Content Include="images\pic04.jpg" />
+    <Content Include="images\pic05.jpg" />
+    <Content Include="index.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
