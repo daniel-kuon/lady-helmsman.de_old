@@ -132,8 +132,8 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="images\Data\IMG_1006.JPG" />
-    <Content Include="images\Data\IMG_1007.JPG" />
+    <Content Include="images\Data\1.JPG" />
+    <Content Include="images\Data\2.JPG" />
     <Content Include="images\Hintergrund\a.jpg" />
     <Content Include="images\Hintergrund\b.jpg" />
     <Content Include="images\Hintergrund\c.jpg" />
@@ -146,6 +146,30 @@
     <Content Include="images\Sailing\04.jpg" />
     <Content Include="images\Sailing\05.JPG" />
     <Content Include="images\Sailing\06.jpg" />
+    <Content Include="images\thumbs\Data\1.JPG" />
+    <Content Include="images\thumbs\Data\2.JPG" />
+    <Content Include="images\thumbs\Sailing\01.jpg" />
+    <Content Include="images\thumbs\Sailing\02.jpg" />
+    <Content Include="images\thumbs\Sailing\03.jpg" />
+    <Content Include="images\thumbs\Sailing\04.jpg" />
+    <Content Include="images\thumbs\Sailing\05.JPG" />
+    <Content Include="images\thumbs\Sailing\06.jpg" />
+    <Content Include="images\thumbs\UeberDeck\10.JPG" />
+    <Content Include="images\thumbs\UeberDeck\11.JPG" />
+    <Content Include="images\thumbs\UeberDeck\12.JPG" />
+    <Content Include="images\thumbs\UeberDeck\13.JPG" />
+    <Content Include="images\thumbs\UeberDeck\14.JPG" />
+    <Content Include="images\thumbs\UeberDeck\15.JPG" />
+    <Content Include="images\thumbs\UeberDeck\16.JPG" />
+    <Content Include="images\thumbs\UeberDeck\17.JPG" />
+    <Content Include="images\thumbs\UeberDeck\18.JPG" />
+    <Content Include="images\thumbs\UnterDeck\21.JPG" />
+    <Content Include="images\thumbs\UnterDeck\22.JPG" />
+    <Content Include="images\thumbs\UnterDeck\23.JPG" />
+    <Content Include="images\thumbs\UnterDeck\24.JPG" />
+    <Content Include="images\thumbs\UnterDeck\25.JPG" />
+    <Content Include="images\thumbs\UnterDeck\26.JPG" />
+    <Content Include="images\thumbs\UnterDeck\27.JPG" />
     <Content Include="images\UnterDeck\21.JPG" />
     <Content Include="images\UnterDeck\22.JPG" />
     <Content Include="images\UnterDeck\23.JPG" />
@@ -267,6 +291,7 @@
     <Content Include="assets\sass\libs\_skel.scss" />
     <Content Include="assets\sass\libs\_vars.scss" />
     <Content Include="assets\sass\main.scss" />
+    <Content Include="Schiffsdaten und Ausstattung.pdf" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -280,14 +305,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\bg.jpg" />
-    <Content Include="images\pic01.jpg" />
-    <Content Include="images\pic02.jpg" />
-    <Content Include="images\pic03.jpg" />
-    <Content Include="images\pic04.jpg" />
-    <Content Include="images\pic05.jpg" />
     <Content Include="index.html" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
